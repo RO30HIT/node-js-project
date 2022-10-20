@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.nav-ul li{
+  display:inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a{
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-ul{
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+
+.inputBox{
+  display: block;
+  margin: 25px;
+  margin-left: 45%;
+  padding: 10px;
+  border: solid 1px skyblue;
+}
+
+.signButton{
+  border: none;
+  padding: 10px;
+  background-color: darkblue;
+  color: white;
+  border-radius: 5px;
+  margin-left: 3%;
+  width: 150px;
+  cursor: pointer;
+}
+
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navRight{
+  text-align: right;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 15px;
+  margin-bottom: 5px;
+
+}
+
+.error{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+}
+
+.productList{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.productList ul li{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+
+.productList ul{
+  margin: 0;
+}
+
+.delete{
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.update{
+  background-color: green;
+  cursor: pointer;
+}
+
